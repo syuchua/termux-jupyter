@@ -17,7 +17,7 @@ ps:脚本中有部分关于替换matplotlib字体以支持显示中文的内容�
 
 ```
 bash
-curl -L https://raw.githubusercontent.com/mazhijia/termux-jupyter/master/install.sh -o install.sh
+curl -L https://raw.githubusercontent.com/syuchua/termux-jupyter/master/install.sh -o install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -26,7 +26,7 @@ chmod +x install.sh
 
 ```
 bash
-wget https://raw.githubusercontent.com/mazhijia/termux-jupyter/master/install.sh -O install.sh
+wget https://raw.githubusercontent.com/syuchua/termux-jupyter/master/install.sh -O install.sh
 chmod +x install.sh
 ./install.sh
 ```
