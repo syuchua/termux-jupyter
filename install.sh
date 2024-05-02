@@ -43,7 +43,7 @@ pip install jupyter
 # 安装Matplotlib及其依赖
 echo "安装Matplotlib及其依赖..."
 pkg install -y libjpeg-turbo libtiff
-pip install pillow
+pkg install python-pillow
 pkg install -y freetype libpng
 pkg install matplotlib
 
