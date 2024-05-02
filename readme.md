@@ -1,6 +1,6 @@
 # Termux Jupyter 环境安装脚本
 
-本脚本旨在简化在 Termux 中安装 Python 及其常用库（如 Jupyter Notebook、NumPy、Pandas 和 Matplotlib）的过程。它适用于 Android 7.0 及以上版本的设备。
+本脚本旨在简化在 Termux 中安装 Python 及其常用库（如 Jupyter Notebook、NumPy、Pandas 和 Matplotlib）的过程。兼容python3.11和Android14
 
 ## 环境要求
 
