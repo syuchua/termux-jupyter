@@ -48,16 +48,16 @@ pkg install -y freetype libpng
 pkg install matplotlib
 
 # 配置Matplotlib以支持中文显示
-echo "配置Matplotlib以支持中文显示..."
+#echo "配置Matplotlib以支持中文显示..."
 # 替换为您下载的中文字体文件路径
-cp -i simsunb.ttf /data/data/com.termux/files/usr/share/fonts/truetype/ || echo "字体文件复制失败，请手动复制"
-fc-cache -f -v
+#cp -i simsunb.ttf /data/data/com.termux/files/usr/share/fonts/truetype/ || echo "字体文件复制失败，请手动复制"
+#fc-cache -f -v
 # 编辑matplotlib配置文件以使用中文字体
-sed -i 's/#font.sans-serif :.*/font.sans-serif : simsunb/g' /data/data/com.termux/files/usr/lib/python3.11/site-packages/matplotlib/mpl-data/matplotlibrc
+#sed -i 's/#font.sans-serif :.*/font.sans-serif : simsunb/g' /data/data/com.termux/files/usr/lib/python3.11/site-packages/matplotlib/mpl-data/matplotlibrc
 
 # 清除matplotlib缓存
-echo "清除matplotlib缓存..."
-rm -rf ~/.cache/matplotlib
+#echo "清除matplotlib缓存..."
+#rm -rf ~/.cache/matplotlib
 
 # 安装成功提示
 echo "安装完成！"
