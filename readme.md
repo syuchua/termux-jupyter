@@ -13,19 +13,23 @@
 2. 安装 Termux 应用（可以从 F-Droid 或 Google Play 商店下载）。
 3. 在 Termux 中运行以下命令以下载并执行安装脚本：
 
-    ```bash
-    curl -L [您的GitHub仓库脚本链接] -o install.sh
-    chmod +x install.sh
-    ./install.sh
-    ```
+ps:脚本中有部分关于替换matplotlib字体以支持显示中文的内容，默认关闭，如果您有需要可选择克隆仓库并将脚本51-60行有关内容取消注释
 
-    或者，如果您更喜欢使用 `wget`：
+```
+bash
+curl -L https://raw.githubusercontent.com/mazhijia/termux-jupyter/master/install.sh -o install.sh
+chmod +x install.sh
+./install.sh
+```
 
-    ```bash
-    wget [您的GitHub仓库脚本链接] -O install.sh
-    chmod +x install.sh
-    ./install.sh
-    ```
+或者，如果您更喜欢使用 `wget`：
+
+```
+bash
+wget https://raw.githubusercontent.com/mazhijia/termux-jupyter/master/install.sh -O install.sh
+chmod +x install.sh
+./install.sh
+```
 
 4. 按照脚本中的提示操作。
 
