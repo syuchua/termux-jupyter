@@ -31,7 +31,7 @@ pkg install rust
 pkg install binutils-is-llvm
 cargo install maturin
 pkg install -y libzmq libcrypt pkg-config
-pip install clang
+pip install clang fftw make freetype
 pip install ipython
 
 # 安装特定版本的pyzmq以避免兼容性问题
