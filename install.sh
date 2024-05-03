@@ -44,7 +44,7 @@ pip install jupyter
 echo "安装Matplotlib及其依赖..."
 pkg install -y libjpeg-turbo libtiff
 pkg install python-pillow
-pkg install -y freetype libpng
+pkg install -y libpng
 pkg install matplotlib
 
 # 配置Matplotlib以支持中文显示
