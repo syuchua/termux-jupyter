@@ -38,6 +38,8 @@ pip install ipython
 echo "安装特定版本的pyzmq以避免兼容性问题..."
 pip install pyzmq==25.1.1
 
+pip install rpds-py
+
 pip install jupyter
 
 # 安装Matplotlib及其依赖
