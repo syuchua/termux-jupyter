@@ -11,7 +11,7 @@ pkg update
 
 # 添加TUR的软件仓库
 echo "添加TUR的软件仓库..."
-pkg install tur-repo
+pkg install tur-repo && pkg upgrade
 
 # 安装Python
 echo "安装Python..."
