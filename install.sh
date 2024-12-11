@@ -30,8 +30,8 @@ echo "安装Jupyter所需依赖..."
 pkg install rust
 pkg install binutils-is-llvm
 cargo install maturin
-pkg install -y libzmq libcrypt pkg-config
-pip install clang fftw make freetype
+pkg install libzmq libcrypt pkg-config -y
+pkg install clang fftw make freetype -y
 pip install ipython
 
 # 安装特定版本的pyzmq以避免兼容性问题
